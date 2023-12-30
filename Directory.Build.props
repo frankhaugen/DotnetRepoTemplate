@@ -16,7 +16,7 @@
         <PublisherName>Frank R. Haugen</PublisherName>
         <Copyright>Copyright (c) 2023 Frank R. Haugen</Copyright>
 
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>icon.png</PackageIcon>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -28,7 +28,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
-        <None Include="../readme.md" Pack="true" PackagePath="\"/>
+        <None Include="../README.md" Pack="true" PackagePath="\"/>
         <None Include="../icon.png" Pack="true" PackagePath="\"/>
         <InternalsVisibleTo Include="$(AssemblyName).Tests"/>
         <InternalsVisibleTo Include="LINQPadQuery"/>
